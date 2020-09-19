@@ -41,7 +41,7 @@ def button(screen, x, y):
 
 
 def draw_red_button(screen, x, y):
-    "Draw an interactive red button on screen"
+    """Draw an interactive red button on screen"""
     mouse_position = pygame.mouse.get_pos()
     mouse_pos_x = mouse_position[0]
     mouse_pos_y = mouse_position[1]
@@ -55,7 +55,7 @@ def draw_red_button(screen, x, y):
 
 
 def draw_green_button(screen, x, y):
-    "Draw an interactive green button on screen"
+    """Draw an interactive green button on screen"""
     mouse_position = pygame.mouse.get_pos()
     mouse_pos_x = mouse_position[0]
     mouse_pos_y = mouse_position[1]
