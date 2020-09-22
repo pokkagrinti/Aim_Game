@@ -43,16 +43,6 @@ def text_objects(text, fontsize):
     return textSurface, textSurface.get_rect()
 
 
-def button(screen, x, y):
-    mouse = pygame.mouse.get_pos()
-    if x + 20 > mouse[0] > x and y + 20 > mouse[1] > y:
-        pygame.draw.rect(screen, BRIGHT_RED, (x, y, 20, 20))
-        return mouse
-    else:
-        pygame.draw.rect(screen, RED, (x, y, 20, 20))
-    return False
-
-
 def draw_red_button(screen, x, y):
     """Draw an interactive red button on screen"""
     mouse_position = pygame.mouse.get_pos()
